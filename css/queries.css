@@ -1,0 +1,91 @@
+/* After 1120px */
+@media (max-width: 70em) {
+  html {
+    font-size: 56.5%;
+  }
+
+  .skills-container {
+    padding: 0 1.2rem;
+  }
+}
+
+/* After 880px */
+@media (max-width: 55em) {
+  .grid-3--cols {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
+  }
+}
+
+@media (max-width: 36em) {
+  .hero-heading {
+    font-size: 3.6rem;
+    max-width: 46rem;
+  }
+
+  .header {
+    padding: 1.2rem;
+  }
+
+  .header-link:link,
+  .header-link:visited {
+    font-size: 1.2rem;
+    display: inline-block;
+    background-size: cover;
+  }
+
+  .email-container {
+    border: none;
+    padding: 0;
+  }
+
+  .email-box {
+    display: none;
+  }
+
+  .email-text {
+    display: none;
+  }
+
+  .copy-label::after {
+    content: " Email";
+  }
+
+  .section-hero {
+    border-radius: 0 0 8rem 8rem;
+  }
+
+  .section-projects {
+    border-radius: 8rem;
+  }
+
+  .project-img-box {
+    width: 22rem;
+    height: 14rem;
+  }
+
+  .project-link:link,
+  .project-link:visited {
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
+
+  .footer-container {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+  }
+}
+
+@media (max-width: 28em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 25em) {
+  .project-img-box {
+    width: 17rem;
+    height: 13rem;
+  }
+}
